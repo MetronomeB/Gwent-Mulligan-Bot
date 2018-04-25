@@ -8,7 +8,7 @@ The python scripts uses the dhash algorithm to identify repeating mulliganed car
 
 #### B. Requirements
 
-Windows 10 64-bit  
+Windows 10 64-bit w/1920x1080 resolution  
 Python 3.6+  
 AutoHotkey 1.1.28+  
 
