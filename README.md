@@ -1,12 +1,10 @@
 # Gwent-Mulligan-Bot
 
 0a. Requirements
-Windows 10 64-bit
 
-Python 3.6+
-
-AutoHotkey 1.1.28+
-
+Windows 10 64-bit  
+Python 3.6+  
+AutoHotkey 1.1.28+  
 
 0b. Python dependencies
 
