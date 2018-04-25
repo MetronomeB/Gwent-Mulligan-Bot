@@ -1,7 +1,6 @@
 # Gwent-Mulligan-Bot
 
 0a. Requirements
-
 Windows 10 64-bit
 
 Python 3.6+
