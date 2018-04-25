@@ -33,7 +33,7 @@ GOG Galaxy client = Off
 2. Create a deck with any Bronze specials and Calveit as leader, then exit Gwent.
 3. Run 'gwent_mulligan_bot.ahk', and input the number of batches of 50 mulligans to sample.
 4. Let the bot run to completion uninterrupted. Any key press - even moving the mouse cursor a single pixel - might cause the bot to de-sync.
-5. Move all screenshots taken by the bot from Windows' built-in 'Pictures\Screenshots' folder to the 'data' folder.
+5. Create a folder named 'data' in the package' root folder, then move all screenshots taken by the bot from Windows' built-in 'Pictures\Screenshots' folder to it.
 6. Run 'prepare_screenshot_pairs.py'. This script identifies faulty screenshot pairs, moves them to the 'faulty_screenshot_pairs' folder, and enumerates all screenshot pairs properly.
 7. Run 'write_raw_data_to_files.py'. This script identifies all instances of mulliganed cards ending up in the top three spots of the deck, and writes the results to the files in the 'raw_data' folder.
 8. Run 'analyze_raw_data.py'. This script analyses the raw data, producing values for common metrics.
