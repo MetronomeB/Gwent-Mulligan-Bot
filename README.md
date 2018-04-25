@@ -1,15 +1,15 @@
 # Gwent-Mulligan-Bot
 
-# 0a. Requirements
+0a. Requirements
 Windows 10 64-bit
 Python 3.6+
 AutoHotkey 1.1.28+
 
-# 0b. Python dependencies
+0b. Python dependencies
 Pillow
 dhash
 
-# 0c. Gwent settings
+0c. Gwent settings
 Resolution = 1920x1080
 Fullscreen = On
 Graphics = Low
