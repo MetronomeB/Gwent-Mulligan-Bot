@@ -21,8 +21,8 @@ dhash
 Resolution = 1920x1080  
 Fullscreen = On  
 Graphics = Low  
-Vsync = Full  
-Antialising = Enabled  
+Vsync = Enabled  
+Antialising = Full  
 Premium cards = Off  
 Tooltips = Off  
 GOG Galaxy client = Off  
@@ -40,7 +40,7 @@ GOG Galaxy client = Off
 
 #### F. Explanation of Raw Data
 
-The raw data is a series of digits, every set of three of which, contains exact information about the mulligan. E.g.:
+The raw data is a series of digits, for which ever set of three digits contain exact information about a mulligan. E.g.:
 
   * '013' means the first card ended up outside of top three, the second ended up at the very top, and the third ended up in the third spot.
 
