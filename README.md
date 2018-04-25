@@ -46,7 +46,9 @@ The raw data is a series of digits, every set of three of which, contains exact 
 
 The raw data are written to four files with differing syntax:
 1. 'raw_data' - '013002100'
-2. 'raw_data_ls'
+2. 'raw_data_ls' - \['013', '002', '100'\]
+3. 'raw_data_ll' - \[\[0, 1, 3\], \[0, 0, 2\], \[1, 0, 0\]\]
+4. 'raw_data.csv' - Spreadsheet readable
 
 #### G. Notes
 
