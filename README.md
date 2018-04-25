@@ -2,7 +2,7 @@
 
 #### A. About
 
-The bot is a simple AutoHotkey script that collects screenshots as mulligan samples.
+The bot is a simple AutoHotkey script that collects screenshots of mulligan samples.
 
 The python scripts uses the dhash algorithm to identify repeating mulliganed cards.
 
@@ -29,7 +29,7 @@ GOG Galaxy client = Off
 
 #### E. Tutorial 
 
-1. Download the bot package and ensure compliance with all of the above.
+1. Download the package and ensure compliance with all of the above.
 2. Create a deck with any Bronze specials and Calveit as leader, then exit Gwent.
 3. Run 'gwent_mulligan_bot.ahk', and input the number of batches of 50 mulligans to sample.
 4. Let the bot run to completion uninterrupted. Any key press - even moving the mouse cursor a single pixel - might cause the bot to de-sync.
@@ -38,7 +38,17 @@ GOG Galaxy client = Off
 7. Run 'write_raw_data_to_files.py'. This script identifies all instances of mulliganed cards ending up in the top three spots of the deck, and writes the results to the files in the 'raw_data' folder.
 8. Run 'analyze_raw_data.py'. This script analyses the raw data, producing values for common metrics.
 
-#### F. Notes
+#### F. Explanation of Raw Data
+
+The raw data is a series of digits, every set of three of which, contains exact information about the mulligan. E.g.:
+
+  * '013' means the first card ended up outside of top three, the second ended up at the very top, and the third ended up in the third spot.
+
+The raw data are written to four files with differing syntax:
+1. 'raw_data' - '013002100'
+2. 'raw_data_ls'
+
+#### G. Notes
 
 The scripts are poorly optimized and will take quite a while to complete when used on large data sets.
 
