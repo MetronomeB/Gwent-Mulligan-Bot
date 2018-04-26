@@ -36,11 +36,11 @@ GOG Galaxy client = Off
 5. Create a folder named 'data' in the package' root folder, then move all screenshots taken by the bot from Windows' built-in 'Pictures\Screenshots' folder to it.
 6. Run 'prepare_screenshot_pairs.py'. This script identifies faulty screenshot pairs, moves them to the 'faulty_screenshot_pairs' folder, and enumerates all screenshot pairs properly.
 7. Run 'write_raw_data_to_files.py'. This script identifies all instances of mulliganed cards ending up in the top three spots of the deck, and writes the results to the files in the 'raw_data' folder.
-8. Run 'analyze_raw_data.py'. This script analyses the raw data, producing values for common metrics.
+8. Run 'analyze_raw_data.py'. This script analyses the raw data, printing values for common metrics.
 
 #### F. Explanation of Raw Data
 
-The raw data is a series of digits, for which ever set of three digits contain exact information about a mulligan. E.g.:
+The raw data is a series of digits, for which every set of three digits contain exact information about a mulligan. E.g.:
 
   * '013' means the first card ended up outside of top three, the second ended up at the very top, and the third ended up in the third spot.
 
